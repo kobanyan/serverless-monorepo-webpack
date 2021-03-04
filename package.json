@@ -1,0 +1,10 @@
+{
+  "name": "serverless-monorepo-webpack",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspaces run start"
+  }
+}
